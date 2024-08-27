@@ -1,24 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌱 Plant-Identifier
+A Next.js application that identifies plants from images using Google Gemini's API, returning the common name, region, scientific name, and description of the plant.
 
-## Getting Started
+![Plant-Identifier](plant-identifier\screenshots\img1.png)
+![Plant-Identifier](plant-identifier\screenshots\img2.png)
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🌍 Identify plants by uploading a photo.
+- 🏷️ Returns the common name, region, and scientific name.
+- 📄 Provides a detailed description of the plant.
+- 🔥 Powered by Google Gemini's advanced AI capabilities.
+
+## 📦 Installation
+
+1. Clone the repository:
+   git clone https://github.com/your-username/plant-identifier.git
+
+2. Navigate to the project directory:
+   cd plant-identifier
+
+3. Install dependencies:
+   npm install
+
+4. Create a .env.local file in the root directory and add your Google Gemini API key:
+   GOOGLE_GEMINI_API_KEY=your-api-key-here
+
+5. Start the development server:
+   npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
+- Next.js - React framework for server-side rendering.
+- Google Gemini - For plant identification.
+- Tailwind CSS - For modern, responsive styling.
+- Vercel - Deployment platform for Next.js apps.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📚 How It Works
+1. The user uploads an image of a plant.
+2. The app sends the image to Google Gemini's API.
+3. The API returns the plant's details (common name, region, scientific name, description).
+4. The app displays the information to the user.
 
 ## Learn More
 
