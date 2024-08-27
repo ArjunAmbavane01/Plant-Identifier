@@ -1,8 +1,8 @@
 # 🌱 Plant-Identifier
 A Next.js application that identifies plants from images using Google Gemini's API, returning the common name, region, scientific name, and description of the plant.
 
-![Plant-Identifier](plant-identifier\screenshots\img1.png)
-![Plant-Identifier](plant-identifier\screenshots\img2.png)
+![Plant-Identifier](screenshots/img1.png)
+![Plant-Identifier](screenshots/img2.png)
 
 ## 🚀 Features
 
