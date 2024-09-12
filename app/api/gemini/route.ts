@@ -15,7 +15,7 @@ function parseAIResponse(text: string): any {
     return JSON.parse(strippedText);
   } catch (error) {
     console.error('Failed to parse JSON:', strippedText);
-    // If parsing fails, return a structured object with the raw text as description
+    // If parsing fails return a object with raw text 
     return {
       commonName: 'Unknown',
       scientificName: 'Unknown',
